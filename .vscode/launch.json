@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/GFG19644/Desktop/SIT/Basics_Overview",
-      "program": "c:/Users/GFG19644/Desktop/SIT/Basics_Overview/build/Debug/outDebug",
+      "cwd": "c:/Users/GFG19644/Desktop/SIT/queue_deque",
+      "program": "c:/Users/GFG19644/Desktop/SIT/queue_deque/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
