@@ -1,0 +1,99 @@
+*Tree Data structure is used to represent hierarchy and it gives parent child
+ relationship.
+
+
+Now think anyone can be friend of anyone. There is a cyclic among the friendship
+relationship.
+Here we cant use tree to represent such information. We cant use tree for random 
+connection among nodes.
+
+Here graph DS came into picture.
+
+ 
+
+
+A graph is a data structure that consists of a collection of nodes (also called vertices)
+and edges that connect pairs of nodes. Graphs are used to model relationships between 
+objects and are widely used in computer science, especially in areas such 
+as network analysis, algorithm design, and database systems.
+
+Key Concepts-:
+1)Nodes (Vertices): 
+These are the fundamental units of the graph, representing entities.
+For example, in a social network graph, each node might represent a person.
+
+2)Edges: 
+These are connections between pairs of nodes, representing relationships
+between the entities. 
+Edges can be:
+1..)Directed: 
+If the relationship has a direction (e.g., a one-way street or a Twitter follow).
+
+2..)Undirected: 
+If the relationship has no direction (e.g., a mutual friendship on Facebook).
+
+3)Weighted Edges: 
+Edges can have weights, which represent the cost, distance, or any other value 
+associated with the connection between two nodes.
+
+4)Paths: 
+A sequence of edges that connect a sequence of nodes. The length of a path is the 
+number of edges it contains.
+
+5)Cycles: 
+A path that starts and ends at the same node without repeating any edges or nodes, 
+except for the starting and ending node.
+
+
+Types of Graphs
+1)Undirected Graph: 
+A graph in which the edges have no direction. The edge (u, v) is identical to the 
+edge (v, u).
+
+2)Directed Graph (Digraph): 
+A graph in which edges have a direction, represented as arrows. 
+The edge (u, v) is different from the edge (v, u).
+
+3)Weighted Graph: 
+A graph in which edges have weights. This can apply to both directed and 
+undirected graphs.
+
+4)Unweighted Graph: 
+A graph in which edges do not have weights.
+
+5)Connected Graph: 
+A graph in which there is a path between any pair of nodes.
+
+6)Disconnected Graph: 
+A graph in which some pairs of nodes do not have a path between them.
+
+7)Acyclic Graph: A graph with no cycles. A directed acyclic graph is known as a DAG.
+
+8)Cyclic Graph: A graph that contains at least one cycle.
+
+Representation of Graphs
+1)Adjacency Matrix: A 2D array where each cell at position (i, j) 
+  indicates the presence (and possibly the weight) of an edge between 
+  nodes i and j.
+For an undirected graph, the matrix is symmetric.
+For a directed graph, the matrix is not necessarily symmetric.
+
+2)Adjacency List: 
+An array of lists. The array index represents a node, and the list at each index 
+contains the nodes that are adjacent to the node at that index.
+
+More space-efficient for sparse graphs.
+
+
+Common Graph Algorithms-:
+
+1)Depth-First Search (DFS): 
+Explores as far along each branch as possible before backtracking.
+2)Breadth-First Search (BFS):
+Explores all neighbors of a node before moving on to their neighbors.
+3)Dijkstra’s Algorithm:
+Finds the shortest path from a source node to all other nodes in a weighted graph.
+4)Bellman-Ford Algorithm: 
+Finds the shortest path in a graph that may have negative weight edges.
+5)Kruskal’s and Prim’s Algorithms:
+Find the minimum spanning tree of a graph.
